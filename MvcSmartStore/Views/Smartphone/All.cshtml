@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MvcSmartStore.Models.Smartphone>
+
+<h2>Dodani uzytkownicy:</h2>
+
+<div class="container">
+	<table class="table  table-bordered">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Brand</th>
+				<th>Model</th>
+				<th>Price</th>
+				<th>Rating</th>
+				<th>Refresh_rate</th>
+				<th>Screen_size</th>
+				<th>RAM</th>
+				<th>Storage</th>
+				<th>Processor</th>
+				<th>Camera_setup</th>
+				<th>Image</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var smartphone in Model)
+			{
+					<tr>
+						<td>@smartphone.Id</td>
+						<td>@smartphone.Brand</td>
+						<td>@smartphone.Model</td>
+						<td>@smartphone.Price</td>
+						<td>@smartphone.Rating</td>
+						<td>@smartphone.Refresh_rate</td>
+						<td>@smartphone.Screen_size</td>
+						<td>@smartphone.Ram</td>
+						<td>@smartphone.Storage</td>
+						<td>@smartphone.Processor</td>
+						<td>@smartphone.Camera_setup</td>
+					<td><img src="https://icentrumsklep.pl/userdata/public/gfx/4702/silver.png" alt="Smartphone image" style="max-width:100px;" /></td>
+					</tr>
+			}
+		</tbody>
+	</table>
+</div>

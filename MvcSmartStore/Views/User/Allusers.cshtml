@@ -1,0 +1,29 @@
+﻿@model IEnumerable<MvcSmartStore.Models.User>
+
+<h2>Dodani uzytkownicy:</h2>
+
+<div class="container">
+	<table class="table  table-bordered">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Username</th>
+				<th>Sex</th>
+				<th>Age</th>
+				<th>Salary</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach(var user in Model)
+			{
+				<tr>
+					<td>@user.Id</td>
+					<td>@user.Username</td>
+					<td>@user.Sex</td>
+					<td>@user.Age</td>
+					<td>@user.Salary</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>

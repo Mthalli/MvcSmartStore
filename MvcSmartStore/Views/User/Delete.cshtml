@@ -1,0 +1,18 @@
+﻿@model MvcSmartStore.Models.User
+
+<h2>usun uzytkownia po </h2>
+
+<form asp-action="Delete" method="post">
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" class="form-control" />
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">usun</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
