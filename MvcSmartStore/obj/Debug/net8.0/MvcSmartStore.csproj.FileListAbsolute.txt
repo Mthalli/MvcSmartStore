@@ -170,3 +170,4 @@ C:\Users\mkozi\source\repos\MvcSmartStore\MvcSmartStore\obj\Debug\net8.0\refint\
 C:\Users\mkozi\source\repos\MvcSmartStore\MvcSmartStore\obj\Debug\net8.0\MvcSmartStore.pdb
 C:\Users\mkozi\source\repos\MvcSmartStore\MvcSmartStore\obj\Debug\net8.0\MvcSmartStore.genruntimeconfig.cache
 C:\Users\mkozi\source\repos\MvcSmartStore\MvcSmartStore\obj\Debug\net8.0\ref\MvcSmartStore.dll
+C:\Users\mkozi\source\repos\MvcSmartStore\MvcSmartStore\obj\Debug\net8.0\MvcSmartStore.sourcelink.json
