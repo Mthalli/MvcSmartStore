@@ -1,6 +1,71 @@
 ﻿@model IEnumerable<MvcSmartStore.Models.Smartphone>
 
-<h2>Dodani uzytkownicy:</h2>
+@using (Html.BeginForm("All", "Smartphone", FormMethod.Get))
+{
+	<div class="row mb-3">
+		<div class="col-md-2">
+			Brand:
+			<select name="brand" class="form-control">
+				<option value="">Wszystkie</option>
+				@foreach (var b in ViewBag.Brands as List<string>)
+				{
+					<option value="@b">@b</option>
+				}
+			</select>
+		</div>
+
+		<div class="col-md-1">
+			Price from:
+			<input type="number" name="minPrice" class="form-control" step="10" />
+		</div>
+
+		<div class="col-md-1">
+			Price to:
+			<input type="number" name="maxPrice" class="form-control" step="10" />
+		</div>
+
+		<div class="col-md-2">
+			RAM:
+			<select name="ram" class="form-control">
+				<option value="">Wszystkie</option>
+				@foreach (var r in ViewBag.Rams as List<int>)
+				{
+					<option value="@r">@r</option>
+				}
+			</select>
+		</div>
+
+		<div class="col-md-2">
+			Refresh_Rate:
+			<select name="refresh_rate" class="form-control">
+				<option value="">Wszystkie</option>
+				@foreach (var r in ViewBag.Refresh_rate as List<int>)
+				{
+					<option value="@r">@r</option>
+				}
+			</select>
+		</div>
+
+		<div class="col-md-2">
+			Storage:
+			<select name="storage" class="form-control">
+				<option value="">Wszystkie</option>
+				@foreach (var r in ViewBag.Storage as List<int>)
+				{
+					<option value="@r">@r</option>
+				}
+			</select>
+		</div>
+
+		<div class="col-md-1 mt-4">
+			<button type="submit" class="btn btn-primary">Filtruj</button>
+		</div>
+	</div>
+}
+
+<p><strong>Liczba wyników:</strong> @Model.Count()</p>
+
+
 
 <div class="container">
 	<table class="table  table-bordered">
