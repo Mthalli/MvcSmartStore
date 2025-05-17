@@ -1,0 +1,29 @@
+﻿@model MvcSmartStore.Models.Smartphone
+
+<div class="container mt-4">
+    <div class="card shadow-lg p-4 rounded-4">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="https://icentrumsklep.pl/userdata/public/gfx/4702/silver.png"
+                     alt="Smartphone image"
+                     class="img-fluid rounded mb-3"
+                     style="max-height: 250px;" />
+            </div>
+
+            <div class="col-md-8">
+                <h3 class="mb-3">@Model.Brand @Model.Model</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Price:</strong> @Model.Price zł</li>
+                    <li class="list-group-item"><strong>Rating:</strong> @Model.Rating</li>
+                    <li class="list-group-item"><strong>Refresh rate:</strong> @Model.Refresh_rate Hz</li>
+                    <li class="list-group-item"><strong>Screen size:</strong> @Model.Screen_size"</li>
+                    <li class="list-group-item"><strong>RAM:</strong> @Model.Ram GB</li>
+                    <li class="list-group-item"><strong>Storage:</strong> @Model.Storage GB</li>
+                    <li class="list-group-item"><strong>Processor:</strong> @Model.Processor</li>
+                    <li class="list-group-item"><strong>Camera setup:</strong> @Model.Camera_setup</li>
+                    <button type="submit" action="">KLIKAJ</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

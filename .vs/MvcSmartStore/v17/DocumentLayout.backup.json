@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\smartphone\\specificsofphone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\smartphone\\specificsofphone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\smartphone\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\smartphone\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\controllers\\smartphonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\controllers\\smartphonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\models\\smartphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\models\\smartphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\models\\smartphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\models\\smartphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\user\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\user\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestMvcDb/True/SqlTable/dbo.Smartphones.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -34,48 +78,12 @@
       "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\user\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\user\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|solutionrelative:mvcsmartstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0197C649-33B9-4065-987B-288A8B932BDF}|MvcSmartStore\\MvcSmartStore.csproj|c:\\users\\mkozi\\source\\repos\\mvcsmartstore\\mvcsmartstore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,86 +113,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dbo.Smartphones [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestMvcDb/True/SqlTable/dbo.Smartphones.sql",
-              "ToolTip": "dbo.Smartphones [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-16T11:44:20.446Z",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MvcSmartStore\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MvcSmartStore\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-17T19:54:26.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T21:39:48.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MvcSmartStore\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:28:32.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SmartphoneController.cs",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\SmartphoneController.cs",
               "RelativeDocumentMoniker": "MvcSmartStore\\Controllers\\SmartphoneController.cs",
               "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\SmartphoneController.cs",
               "RelativeToolTip": "MvcSmartStore\\Controllers\\SmartphoneController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T21:26:32.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Allusers.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Allusers.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\User\\Allusers.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Allusers.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\User\\Allusers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SpecificsOfPhone.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Smartphone\\SpecificsOfPhone.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Smartphone\\SpecificsOfPhone.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Smartphone\\SpecificsOfPhone.cshtml*",
+              "RelativeToolTip": "MvcSmartStore\\Views\\Smartphone\\SpecificsOfPhone.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:30:40.721Z",
+              "WhenOpened": "2025-05-17T18:47:44.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "All.cshtml",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Smartphone\\All.cshtml",
               "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Smartphone\\All.cshtml",
               "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Smartphone\\All.cshtml",
               "RelativeToolTip": "MvcSmartStore\\Views\\Smartphone\\All.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwEEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-15T21:30:28.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Smartphone.cs",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\Smartphone.cs",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Models\\Smartphone.cs",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\Smartphone.cs",
-              "RelativeToolTip": "MvcSmartStore\\Models\\Smartphone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:30:11.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:30:25.625Z",
+              "WhenOpened": "2025-05-15T21:39:38.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Home\\Index.cshtml",
@@ -198,97 +222,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "MvcSmartStore\\Models\\ErrorViewModel.cs",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MvcSmartStore\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:31:33.288Z",
+              "WhenOpened": "2025-05-15T21:28:28.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:39:15.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MvcSmartStore\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:28:32.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:30:27.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Delete.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\User\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Delete.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\User\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:30:50.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\User\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:30:53.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\User\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:30:44.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\User.cs",
               "RelativeDocumentMoniker": "MvcSmartStore\\Models\\User.cs",
@@ -301,33 +247,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:39:48.962Z",
+              "WhenOpened": "2025-05-15T21:39:15.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "MvcSmartStore\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T21:39:38.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "MvcSmartStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -340,7 +273,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 12,
+              "Title": "Smartphone.cs",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\Smartphone.cs",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Models\\Smartphone.cs",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\Smartphone.cs",
+              "RelativeToolTip": "MvcSmartStore\\Models\\Smartphone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:30:11.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T21:30:53.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Allusers.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Allusers.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\User\\Allusers.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Allusers.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\User\\Allusers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T21:30:40.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T21:30:25.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbo.Smartphones.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestMvcDb/True/SqlTable/dbo.Smartphones.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestMvcDb/True/SqlTable/dbo.Smartphones.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-16T11:44:20.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MvcSmartStore\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:31:33.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T21:30:27.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\User\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\User\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T21:30:50.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcSmartStore\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "MvcSmartStore\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T21:30:44.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "20250515213452_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Migrations\\20250515213452_InitialCreate.cs",
               "RelativeDocumentMoniker": "MvcSmartStore\\Migrations\\20250515213452_InitialCreate.cs",
@@ -352,19 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MvcSmartStore\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MvcSmartStore\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:28:28.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Program.cs",
               "RelativeDocumentMoniker": "MvcSmartStore\\Program.cs",
@@ -376,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\appsettings.json",
               "RelativeDocumentMoniker": "MvcSmartStore\\appsettings.json",
@@ -388,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "MvcSmartStore\\Data\\AppDbContext.cs",
@@ -400,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "MvcSmartStore.csproj",
               "DocumentMoniker": "C:\\Users\\mkozi\\source\\repos\\MvcSmartStore\\MvcSmartStore\\MvcSmartStore.csproj",
               "RelativeDocumentMoniker": "MvcSmartStore\\MvcSmartStore.csproj",

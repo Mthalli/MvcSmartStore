@@ -33,6 +33,15 @@ namespace MvcSmartStore.Controllers
 
             return View(result);
         }
+        public IActionResult SpecificsOfPhone (int id)
+        {
+            var phone = _db.Smartphones.FirstOrDefault(r => r.Id == id);
+            if (phone == null)
+            {
+                return NotFound();
+            }
+            return View(phone);
+        }
 
     }
 

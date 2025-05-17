@@ -2,107 +2,84 @@
 
 @using (Html.BeginForm("All", "Smartphone", FormMethod.Get))
 {
-	<div class="row mb-3">
-		<div class="col-md-2">
-			Brand:
-			<select name="brand" class="form-control">
-				<option value="">Wszystkie</option>
-				@foreach (var b in ViewBag.Brands as List<string>)
-				{
-					<option value="@b">@b</option>
-				}
-			</select>
-		</div>
+    <div class="row mb-3">
+        <div class="col-md-2">
+            Brand:
+            <select name="brand" class="form-control">
+                <option value="">Wszystkie</option>
+                @foreach (var b in ViewBag.Brands as List<string>)
+                {
+                    <option value="@b">@b</option>
+                }
+            </select>
+        </div>
 
-		<div class="col-md-1">
-			Price from:
-			<input type="number" name="minPrice" class="form-control" step="10" />
-		</div>
+        <div class="col-md-1">
+            Price from:
+            <input type="number" name="minPrice" class="form-control" step="0.01" />
+        </div>
 
-		<div class="col-md-1">
-			Price to:
-			<input type="number" name="maxPrice" class="form-control" step="10" />
-		</div>
+        <div class="col-md-1">
+            Price to:
+            <input type="number" name="maxPrice" class="form-control" step="0.01" />
+        </div>
 
-		<div class="col-md-2">
-			RAM:
-			<select name="ram" class="form-control">
-				<option value="">Wszystkie</option>
-				@foreach (var r in ViewBag.Rams as List<int>)
-				{
-					<option value="@r">@r</option>
-				}
-			</select>
-		</div>
+        <div class="col-md-2">
+            RAM:
+            <select name="ram" class="form-control">
+                <option value="">Wszystkie</option>
+                @foreach (var r in ViewBag.Rams as List<int>)
+                {
+                    <option value="@r">@r</option>
+                }
+            </select>
+        </div>
 
-		<div class="col-md-2">
-			Refresh_Rate:
-			<select name="refresh_rate" class="form-control">
-				<option value="">Wszystkie</option>
-				@foreach (var r in ViewBag.Refresh_rate as List<int>)
-				{
-					<option value="@r">@r</option>
-				}
-			</select>
-		</div>
+        <div class="col-md-2">
+            Refresh Rate:
+            <select name="refresh_rate" class="form-control">
+                <option value="">Wszystkie</option>
+                @foreach (var r in ViewBag.Refresh_rate as List<int>)
+                {
+                    <option value="@r">@r</option>
+                }
+            </select>
+        </div>
 
-		<div class="col-md-2">
-			Storage:
-			<select name="storage" class="form-control">
-				<option value="">Wszystkie</option>
-				@foreach (var r in ViewBag.Storage as List<int>)
-				{
-					<option value="@r">@r</option>
-				}
-			</select>
-		</div>
+        <div class="col-md-2">
+            Storage:
+            <select name="storage" class="form-control">
+                <option value="">Wszystkie</option>
+                @foreach (var r in ViewBag.Storage as List<int>)
+                {
+                    <option value="@r">@r</option>
+                }
+            </select>
+        </div>
 
-		<div class="col-md-1 mt-4">
-			<button type="submit" class="btn btn-primary">Filtruj</button>
-		</div>
-	</div>
+        <div class="col-md-1 mt-4">
+            <button type="submit" class="btn btn-primary">Filtruj</button>
+        </div>
+    </div>
 }
 
 <p><strong>Liczba wyników:</strong> @Model.Count()</p>
 
-
-
 <div class="container">
-	<table class="table  table-bordered">
-		<thead>
-			<tr>
-				<th>Id</th>
-				<th>Brand</th>
-				<th>Model</th>
-				<th>Price</th>
-				<th>Rating</th>
-				<th>Refresh_rate</th>
-				<th>Screen_size</th>
-				<th>RAM</th>
-				<th>Storage</th>
-				<th>Processor</th>
-				<th>Camera_setup</th>
-				<th>Image</th>
-			</tr>
-		</thead>
-		<tbody>
-			@foreach (var smartphone in Model)
-			{
-					<tr>
-						<td>@smartphone.Id</td>
-						<td>@smartphone.Brand</td>
-						<td>@smartphone.Model</td>
-						<td>@smartphone.Price</td>
-						<td>@smartphone.Rating</td>
-						<td>@smartphone.Refresh_rate</td>
-						<td>@smartphone.Screen_size</td>
-						<td>@smartphone.Ram</td>
-						<td>@smartphone.Storage</td>
-						<td>@smartphone.Processor</td>
-						<td>@smartphone.Camera_setup</td>
-					<td><img src="https://icentrumsklep.pl/userdata/public/gfx/4702/silver.png" alt="Smartphone image" style="max-width:100px;" /></td>
-					</tr>
-			}
-		</tbody>
-	</table>
+    <div class="row">
+        @foreach (var smartphone in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <a asp-controller="Smartphone" asp-action="SpecificsOfPhone" asp-route-id="@smartphone.Id" class="text-decoration-none text-dark">
+                    <div class="card h-100">
+                        <img src="https://icentrumsklep.pl/userdata/public/gfx/4702/silver.png" class="card-img-top" alt="Smartphone image">
+                        <div class="card-body">
+                            <h5 class="card-title">@smartphone.Brand @smartphone.Model</h5>
+                            <p class="card-text">@smartphone.Price zł</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
 </div>
