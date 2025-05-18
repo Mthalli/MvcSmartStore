@@ -10,5 +10,7 @@ namespace MvcSmartStore.Data
         public DbSet<User> Users { get; set; }
 
         public DbSet<Smartphone> Smartphones { get; set; }
+        public DbSet<OrderData> Orderdatas { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

@@ -8,11 +8,8 @@ namespace MvcSmartStore.Models
         [Required]
         public string Username { get; set; }
 		[Required]
-		public string Sex { get; set; }
-        [Range (0, 150)]
-        public int Age { get; set; }
-        [Range(0,1000000)]
-        public int Salary {  get; set; }
+		public string Password { get; set; }
 
+        public List<Order> Orders { get; set; }
     }
 }
