@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MvcSmartStore.Data;
 using MvcSmartStore.Models;
@@ -19,19 +20,42 @@ namespace MvcSmartStore.Controllers
         }
         //adduser
         [HttpGet]
-        public IActionResult Create()
+        public IActionResult Register()
         {
             return View();
         }
 		[HttpPost]
-		public IActionResult Create(User user)
+		public IActionResult Register(User user)
         {
-            if(ModelState.IsValid) 
+            if (_db.Users.Any(r => r.Username == user.Username))
+            {
+                ModelState.AddModelError("Username", "Użytkownik o takiej nazwie już istnieje.");
+                return View(user);
+            }
+            if (ModelState.IsValid) 
             {
                 _db.Users.Add(user);
                 _db.SaveChanges();
                 return RedirectToAction("Allusers");
             }
+            return View(user);
+        }
+        //login
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Login(User user)
+        {
+            var login = _db.Users.FirstOrDefault(r=>r.Username ==user.Username && r.Password == user.Password);
+            if (login != null)
+            {
+                HttpContext.Session.SetInt32("UserId", login.Id);
+                return RedirectToAction("All", "Smartphone"); 
+            }
+
+            ModelState.AddModelError("", "Login error, user does not exist or wrong password");
             return View(user);
         }
         //deleteuser
@@ -42,6 +66,7 @@ namespace MvcSmartStore.Controllers
         [HttpPost]
         public IActionResult Delete(int id)
         {
+            
             var user = _db.Users.FirstOrDefault(r => r.Id == id);
             if(user != null)
             {

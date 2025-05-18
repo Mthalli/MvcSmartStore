@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace MvcSmartStore.Models
+﻿namespace MvcSmartStore.Models
 {
     public class Order
     {
@@ -11,6 +9,6 @@ namespace MvcSmartStore.Models
 
         public User User { get; set; }
 
-        public List<OrderData> OrderDatas { get; set; }
+        public List<OrderData> OrderDatas { get; set; } = new List<OrderData>();//so its never null cause its required
     }
 }

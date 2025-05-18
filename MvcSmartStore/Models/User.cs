@@ -10,6 +10,6 @@ namespace MvcSmartStore.Models
 		[Required]
 		public string Password { get; set; }
 
-        public List<Order> Orders { get; set; }
+        public List<Order> Orders { get; set; } = new List<Order>();//so its never null cause its required
     }
 }
