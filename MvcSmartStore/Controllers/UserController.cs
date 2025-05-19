@@ -14,10 +14,6 @@ namespace MvcSmartStore.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
         //adduser
         [HttpGet]
         public IActionResult Register()
@@ -58,24 +54,17 @@ namespace MvcSmartStore.Controllers
             ModelState.AddModelError("", "Login error, user does not exist or wrong password");
             return View(user);
         }
-        //deleteuser
-        public IActionResult Delete()
+        //logout
+        public IActionResult Logout()
         {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Delete(int id)
-        {
-            
-            var user = _db.Users.FirstOrDefault(r => r.Id == id);
-            if(user != null)
+            var check = HttpContext.Session.GetInt32("UserId");
+            if(check!=null)
             {
-                _db.Users.Remove(user);
-                _db.SaveChanges();
+                HttpContext.Session.Remove("UserId");
+                return RedirectToAction("All", "Smartphone");
             }
-            return RedirectToAction("Allusers");
+            return RedirectToAction("All", "Smartphone");
         }
-        //showallusers
         public IActionResult Allusers()
         {
             var users = _db.Users.ToList();

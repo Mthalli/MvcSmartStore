@@ -33,40 +33,19 @@ namespace MvcSmartStore.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("SmartphoneId")
+                        .HasColumnType("int");
+
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("SmartphoneId");
+
                     b.HasIndex("UserId");
 
                     b.ToTable("Orders");
-                });
-
-            modelBuilder.Entity("MvcSmartStore.Models.OrderData", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SmartphoneId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
-
-                    b.HasIndex("SmartphoneId");
-
-                    b.ToTable("Orderdatas");
                 });
 
             modelBuilder.Entity("MvcSmartStore.Models.Smartphone", b =>
@@ -143,42 +122,21 @@ namespace MvcSmartStore.Migrations
 
             modelBuilder.Entity("MvcSmartStore.Models.Order", b =>
                 {
-                    b.HasOne("MvcSmartStore.Models.User", "User")
-                        .WithMany("Orders")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("MvcSmartStore.Models.OrderData", b =>
-                {
-                    b.HasOne("MvcSmartStore.Models.Order", "Order")
-                        .WithMany("OrderDatas")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("MvcSmartStore.Models.Smartphone", "Smartphone")
                         .WithMany()
                         .HasForeignKey("SmartphoneId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Order");
+                    b.HasOne("MvcSmartStore.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Smartphone");
-                });
 
-            modelBuilder.Entity("MvcSmartStore.Models.Order", b =>
-                {
-                    b.Navigation("OrderDatas");
-                });
-
-            modelBuilder.Entity("MvcSmartStore.Models.User", b =>
-                {
-                    b.Navigation("Orders");
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MvcSmartStore.Migrations
 {
     /// <inheritdoc />
-    public partial class Final : Migration
+    public partial class Create : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -55,11 +55,18 @@ namespace MvcSmartStore.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UserId = table.Column<int>(type: "int", nullable: false),
+                    SmartphoneId = table.Column<int>(type: "int", nullable: false),
                     OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Orders", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Orders_Smartphones_SmartphoneId",
+                        column: x => x.SmartphoneId,
+                        principalTable: "Smartphones",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Orders_Users_UserId",
                         column: x => x.UserId,
@@ -68,41 +75,9 @@ namespace MvcSmartStore.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Orderdatas",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    OrderId = table.Column<int>(type: "int", nullable: false),
-                    ProductId = table.Column<int>(type: "int", nullable: false),
-                    SmartphoneId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Orderdatas", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Orderdatas_Orders_OrderId",
-                        column: x => x.OrderId,
-                        principalTable: "Orders",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Orderdatas_Smartphones_SmartphoneId",
-                        column: x => x.SmartphoneId,
-                        principalTable: "Smartphones",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
             migrationBuilder.CreateIndex(
-                name: "IX_Orderdatas_OrderId",
-                table: "Orderdatas",
-                column: "OrderId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Orderdatas_SmartphoneId",
-                table: "Orderdatas",
+                name: "IX_Orders_SmartphoneId",
+                table: "Orders",
                 column: "SmartphoneId");
 
             migrationBuilder.CreateIndex(
@@ -114,9 +89,6 @@ namespace MvcSmartStore.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Orderdatas");
-
             migrationBuilder.DropTable(
                 name: "Orders");
 

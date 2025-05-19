@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MvcSmartStore.Models.Order>
+
+<h2>Koszyk:</h2>
+
+<div class="container">
+	<table class="table  table-bordered">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>SmartphoneID</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var order in Model)
+			{
+				<tr>
+					<td>@order.Id</td>
+					<td>@order.SmartphoneId</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>

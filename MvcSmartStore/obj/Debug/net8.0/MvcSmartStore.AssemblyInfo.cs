@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcSmartStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90999bd113ea9f64f73a223628455fb8b7e13243")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e076ae06a435943fe8d40947ad15263763e11e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcSmartStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcSmartStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
