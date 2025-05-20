@@ -16,7 +16,7 @@ MvcSmartStore is a basic online store system with user authentication and sessio
 - 👥 Session-based user management
 
 ---
-##⚠️ 
+⚠️ 
 
 Dataset used in this project has **RANDOM DATA**, brands, models, images are all mixed up and smartphones that you see with this specifications does not exist in real life
 ---
