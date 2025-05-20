@@ -2,8 +2,6 @@
 
 **MvcSmartStore** is a web-based e-commerce application built with ASP.NET Core MVC.
 
-##⚠️ 
--Dataset used in this project has **RANDOM DATA**, brands, models, images are all mixed up and smartphones that you see with this specifications does not exist in real life
 ---
 
 ## 📌 Description
@@ -17,6 +15,10 @@ MvcSmartStore is a basic online store system with user authentication and sessio
 - 📄 View cart with item details and total price
 - 👥 Session-based user management
 
+---
+##⚠️ 
+
+Dataset used in this project has **RANDOM DATA**, brands, models, images are all mixed up and smartphones that you see with this specifications does not exist in real life
 ---
 
 ## 🧰 Technologies Used
