@@ -35,7 +35,11 @@ Dataset used in this project has **RANDOM DATA**, brands, models, images are all
 
 ## 📷 Preview
 
-https://github.com/user-attachments/assets/98a28300-d9a7-4db4-b0cc-ef5f52b541a6
+
+
+
+https://github.com/user-attachments/assets/4dae55bd-416f-4755-b107-2ce9c873a5d4
+
 
 
 ---
