@@ -56,4 +56,4 @@ https://github.com/user-attachments/assets/98a28300-d9a7-4db4-b0cc-ef5f52b541a6
         ROWTERMINATOR = '\n',
         TABLOCK
     );
-5. **Click Run app and you are ready to use your app**
+5. **Click Run app in Visual Studio and you are ready to use your app**
