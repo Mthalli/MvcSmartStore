@@ -42,11 +42,11 @@ https://github.com/user-attachments/assets/95b3fda7-d089-4c82-96c5-3133ccc32997
 3. **Delete migration folder, and in nuget console write to cammands: "add-migration InitialCreate" and then "update-database" (to make sure the database is properly created)**
 4.  **Add data from 3mobile_phones_2000.csv file to database.**
     -I recommend to do it by using SQL Server Management Studio and typing this query in TestMvcDb database:
-    BULK INSERT Smartphones
-    FROM 'C:\data\3mobile_phones_2000.csv' --write your own file directory
-    WITH (
-        FORMAT = 'CSV',
-        FIRSTROW = 2, 
+    --BULK INSERT Smartphones
+    --FROM 'C:\data\3mobile_phones_2000.csv' --write your own file directory
+    --WITH (
+        --FORMAT = 'CSV',
+        --FIRSTROW = 2, 
         FIELDTERMINATOR = ',',  
         ROWTERMINATOR = '\n',
         TABLOCK
