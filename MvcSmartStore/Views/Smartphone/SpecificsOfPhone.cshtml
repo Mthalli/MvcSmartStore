@@ -21,7 +21,10 @@
                     <li class="list-group-item"><strong>Storage:</strong> @Model.Storage GB</li>
                     <li class="list-group-item"><strong>Processor:</strong> @Model.Processor</li>
                     <li class="list-group-item"><strong>Camera setup:</strong> @Model.Camera_setup</li>
-                    <li class="list-group-item"><button type="submit" action="">Add to Cart</button></li>
+                    <a asp-controller="Order" asp-action="AddToCart" asp-route-id="@Model.Id" class="btn btn-primary">
+                        Add to Cart
+                    </a>
+
                 </ul>
             </div>
         </div>

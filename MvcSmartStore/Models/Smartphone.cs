@@ -16,6 +16,7 @@ namespace MvcSmartStore.Models
         public int Storage {  get; set; }
         public string Processor { get; set; }
         public string Camera_setup { get; set; }
+        public string imgURL { get; set; }
 
     }
 }

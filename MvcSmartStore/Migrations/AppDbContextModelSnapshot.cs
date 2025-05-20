@@ -94,6 +94,10 @@ namespace MvcSmartStore.Migrations
                     b.Property<int>("Storage")
                         .HasColumnType("int");
 
+                    b.Property<string>("imgURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Smartphones");

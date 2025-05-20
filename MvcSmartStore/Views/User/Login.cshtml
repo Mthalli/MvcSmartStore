@@ -31,5 +31,13 @@
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        <script>
+            window.onload = function () {
+                const message = '@TempData["PopupMessage"]';
+                if (message) {
+                    alert(message);
+                }
+            };
+        </script>
     }
 }

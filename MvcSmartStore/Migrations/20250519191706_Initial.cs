@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MvcSmartStore.Migrations
 {
     /// <inheritdoc />
-    public partial class Create : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -27,7 +27,8 @@ namespace MvcSmartStore.Migrations
                     Ram = table.Column<int>(type: "int", nullable: false),
                     Storage = table.Column<int>(type: "int", nullable: false),
                     Processor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Camera_setup = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Camera_setup = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    imgURL = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

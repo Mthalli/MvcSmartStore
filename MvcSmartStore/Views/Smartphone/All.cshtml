@@ -72,7 +72,7 @@
             <div class="col-md-3 mb-4">
                 <a asp-controller="Smartphone" asp-action="SpecificsOfPhone" asp-route-id="@smartphone.Id" class="text-decoration-none text-dark">
                     <div class="card h-100">
-                        <img src="https://icentrumsklep.pl/userdata/public/gfx/4702/silver.png" class="card-img-top" alt="Smartphone image">
+                        <img src="@smartphone.imgURL" style="max-width: 250px; height: auto;" />
                         <div class="card-body">
                             <h5 class="card-title">@smartphone.Brand @smartphone.Model</h5>
                             <p class="card-text">@smartphone.Price zł</p>
@@ -83,3 +83,16 @@
         }
     </div>
 </div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        <script>
+            window.onload = function () {
+                const message = '@TempData["PopupMessage"]';
+                if (message) {
+                    alert(message);
+                }
+            };
+        </script>
+    }
+}

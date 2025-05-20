@@ -12,8 +12,8 @@ using MvcSmartStore.Data;
 namespace MvcSmartStore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250519101103_Create")]
-    partial class Create
+    [Migration("20250519191706_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -96,6 +96,10 @@ namespace MvcSmartStore.Migrations
 
                     b.Property<int>("Storage")
                         .HasColumnType("int");
+
+                    b.Property<string>("imgURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

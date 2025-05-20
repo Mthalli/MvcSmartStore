@@ -25,14 +25,15 @@ namespace MvcSmartStore.Controllers
         {
             if (_db.Users.Any(r => r.Username == user.Username))
             {
-                ModelState.AddModelError("Username", "Użytkownik o takiej nazwie już istnieje.");
+                ModelState.AddModelError("Username", "Username already taken.");
                 return View(user);
             }
             if (ModelState.IsValid) 
             {
                 _db.Users.Add(user);
                 _db.SaveChanges();
-                return RedirectToAction("Allusers");
+                TempData["PopUpMessage"] = "Register succesful.";
+                return RedirectToAction("Login");
             }
             return View(user);
         }
@@ -48,10 +49,10 @@ namespace MvcSmartStore.Controllers
             if (login != null)
             {
                 HttpContext.Session.SetInt32("UserId", login.Id);
+                TempData["PopUpMessage"] = "Login succesful.";
                 return RedirectToAction("All", "Smartphone"); 
             }
-
-            ModelState.AddModelError("", "Login error, user does not exist or wrong password");
+            TempData["PopUpMessage"] = "Login Error, wrong password or username.";
             return View(user);
         }
         //logout
@@ -61,6 +62,7 @@ namespace MvcSmartStore.Controllers
             if(check!=null)
             {
                 HttpContext.Session.Remove("UserId");
+                TempData["PopUpMessage"] = "Logout succesful.";
                 return RedirectToAction("All", "Smartphone");
             }
             return RedirectToAction("All", "Smartphone");

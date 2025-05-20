@@ -3,21 +3,42 @@
 <h2>Koszyk:</h2>
 
 <div class="container">
-	<table class="table  table-bordered">
+	<table class="table table-bordered">
 		<thead>
 			<tr>
-				<th>Id</th>
-				<th>SmartphoneID</th>
+				<th>Image</th>
+				<th>Smartphone Name</th>
+				<th>Price</th>
+				<th>Delete</th>
 			</tr>
 		</thead>
 		<tbody>
 			@foreach (var order in Model)
 			{
 				<tr>
-					<td>@order.Id</td>
-					<td>@order.SmartphoneId</td>
+					<td>
+						<img src="https://icentrumsklep.pl/userdata/public/gfx/4702/silver.png"
+							 alt="Smartphone image"
+							 style="width: 80px;" />
+					</td>
+					<td>@order.Smartphone.Brand @order.Smartphone.Model</td>
+					<td>@order.Smartphone.Price zł</td>
+					<td>
+						<a asp-controller="Order" asp-action="RemoveFromCart" asp-route-id="@order.Id" class="btn btn-danger btn-sm">
+							Usuń
+						</a>
+					</td>
 				</tr>
 			}
 		</tbody>
 	</table>
+
+	@{
+		var total = Model.Sum(o => o.Smartphone.Price);
+	}
+
+	<div class="d-flex justify-content-between align-items-center mt-4">
+		<h4>Łączna suma: <strong>@total zł</strong></h4>
+		<button class="btn btn-success btn-lg">Zapłać</button>
+	</div>
 </div>
