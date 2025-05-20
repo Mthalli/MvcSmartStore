@@ -31,7 +31,7 @@ MvcSmartStore is a basic online store system with user authentication and sessio
 
 ## 📷 Preview
 
-![App Screenshot](https://github.com/user-attachments/assets/95b3fda7-d089-4c82-96c5-3133ccc32997)
+(https://github.com/user-attachments/assets/95b3fda7-d089-4c82-96c5-3133ccc32997)
 
 ---
 
