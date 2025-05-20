@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/95b3fda7-d089-4c82-96c5-3133ccc32997
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Running App
 
 1. **Download Release version v1.0.0**
 2. **Open MvcSmartStore.sln file**
