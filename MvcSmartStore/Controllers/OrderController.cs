@@ -59,7 +59,7 @@ namespace MvcSmartStore.Controllers
             var userId = HttpContext.Session.GetInt32("UserId");
             if (userId == null)
             {
-                return BadRequest("You must login first to remove product from cart");
+                return BadRequest("You must login first to remove a product from cart");
             }
 
             var order = _db.Orders.FirstOrDefault(o => o.Id == id && o.UserId == userId.Value);
